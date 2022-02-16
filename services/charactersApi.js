@@ -18,7 +18,7 @@ class CharactersApi {
 
     getAllCharacters = ()=> this.api.get("/characters") //Name of function should be descriptive of your service
     getOneCharacter = (id)=>{
-        return this.api.get(`/characters/${id}`)
+        return this.api.get(`/characters/${id}`);
     }
     createOneCharacter = ()=>{}
     updateOneCharacter = ()=>{}
